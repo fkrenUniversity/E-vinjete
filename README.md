@@ -4,12 +4,6 @@ This repository is used for digitalization for slovenian vignettes.
 ## Structure
 Project is divided into 3 simple webservices and web application(UI). For webservices we will be using Python and framework FastAPI. For web application we will be using latest node.js and framework React.js
 ## Web services
-### User 
-Because its is government application, we will need user identification.
-* For user identification we will use Slovenian **tax number**,**email** or **phone number** and **password**. 
-* Service will provide with logs, when user has been logged in and from which computer.
-
-![User Diagram](https://github.com/fkrenUniversity/E-vinjete/blob/main/diagrams/User.png?raw=true)
 
 
 ### Vehicles
