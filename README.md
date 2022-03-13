@@ -6,12 +6,7 @@ Project is divided into 3 simple webservices and web application(UI). For webser
 ## Web services
 
 
-### Vehicles
-* User needs to provide basic vehicle information. Such as: **Vehicle type**, **Vehicle colour**, **VIN** and **Vehicle owner**. User can add multiple vehicles that he owns.
-* Vehicle microservice will also return list of all vehicles owned by user.
-* For each vehicle service will return date when Vignette has been purchased and Vignette expiration date. User will have at all time knowledge about Vignettes and expiration dates for different vehicles.
 
-![Vehicle Diagram](https://github.com/fkrenUniversity/E-vinjete/blob/main/diagrams/Vehicle.png?raw=true)
 
 ### Vignette
 * When user adds vehicle, he will be provided with vignette type for his vehicle, which he can choose from. Vignette types are: **Weekly**, **Monthly** and **Yearly**.
@@ -22,10 +17,7 @@ Project is divided into 3 simple webservices and web application(UI). For webser
 ![Vignette Diagram](https://github.com/fkrenUniversity/E-vinjete/blob/main/diagrams/Vignette.png?raw=true)
 
 
-* **Vehicle**
-    * Service has to be executed in less than 100ms
-    * Service needs to be protected
-    * When there are multiple requests for this service, response time should be less than 3000ms
+
 * **Vignette**
     * Service has to be executed in less than 100ms
     * Service needs to be protected
